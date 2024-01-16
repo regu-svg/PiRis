@@ -1,0 +1,66 @@
+
+
+.container{
+margin: 0 10vw 0 10vw;
+  width: 80vw;
+}
+
+.container h2 {
+  color: #000;
+  margin-right: 2vw;
+}
+
+.container2{
+  justify-content: center;
+  width: 100%;
+  display: flex;
+}
+
+.inputs, .inputs2{
+width: 30vw;
+margin:1vw ;
+}
+input{
+  width: 25.6vw;
+  padding: 0 2vw;
+  border: 2px solid #616976;
+  background: transparent;
+  height: 3vw;
+  margin: 0.5vw 0;
+  font-size: 1vw;
+}
+
+::placeholder{
+  color: #616976;
+  font-size: 1vw;
+}
+
+.inputs button{
+  width: 100%;
+  height: 3vw;
+  margin-top: 0.8vw;
+}
+
+p{
+  margin-top: 1vw;
+}
+
+a{
+  color: #000;
+}
+
+.chek{
+  display: flex;
+}
+
+.chek input{
+width: 3.8vw;
+margin-right: 1vw;
+}
+
+.chek label{
+  font-size: 1vw;
+  margin-top: 1vw;
+}
+
+

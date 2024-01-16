@@ -1,0 +1,63 @@
+.container{
+    margin: 2vw 10vw 2vw 10vw;
+    width: 100%;
+    display: block;
+}
+
+.container h2{
+    color: black;
+    margin: 3vw 0;
+}
+
+h3{
+    color: #CE8F5A;
+font-size: 20px;
+font-weight: 700;
+letter-spacing: 2px;
+}
+
+.col1 p, .col2 p{
+   margin: 0.5vw 0 2vw 0;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.block{
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 40% 30% 20%;
+    gap: 2vw;
+}
+
+.block img{
+    width: 100%;
+}
+
+.col2 button {
+    width: 100%;
+    color: #fff;
+}
+
+
+.col1, .col2{
+    display: grid;
+    grid-template-rows: auto 5vw;
+}
+
+.price{
+    margin-top: 1vw;
+    vertical-align: bottom;
+    display: flex;
+}
+
+.price h3{
+    margin-top: 0.5vw;
+}
+
+.inp{
+    width: 80%;
+    margin: 4vw 0;
+    line-height: 2vw;
+}
+

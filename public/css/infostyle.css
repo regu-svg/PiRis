@@ -1,0 +1,28 @@
+.container {
+    display: grid;
+    grid-template-columns: 50vw auto;
+    column-gap: 5vw;
+}
+
+iframe{
+    width: 50vw;
+height: 30vw;
+}
+
+.inf{
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.inf h3{
+color: #616976;
+font-weight: 700;
+
+}
+
+.inf p{
+    color: #616976;
+    margin: 0.5vw 0 2vw 0;
+}

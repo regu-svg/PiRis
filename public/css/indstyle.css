@@ -1,0 +1,169 @@
+
+.container1{
+    background-image: url(../img/side-view-bored-woman-work\ 1.png);
+    background-size: 100vw auto;
+    height: 100vh;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+.midl{
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.midl p{
+    margin: 1vw 0 1.5vw 0vw;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 40vw 60vw;
+    grid-template-rows: auto auto auto;
+    margin-top: 0vw;
+}
+
+.container11, .container3, .container5{
+    
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+    padding: 5vw 5vw 5vw 10vw;
+}
+
+.container2,  .container6{
+    
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+    padding-left: 5vw;
+    padding-right: 10vw;
+}
+
+.container11{
+    background-color: #616976;
+}
+
+
+.container2{
+flex-direction: column;
+}
+
+.container4 img{
+height: 30vw;
+width: 60vw;
+}
+
+.container3{
+    flex-direction: column; 
+    align-items: center;
+}
+
+.container3 img{
+    width: 1.5vw;
+    margin-top: 1vw;
+}
+.container3 h2{
+color: black;
+}
+
+.container5{
+    background-color: #CE8F5A;
+    flex-direction: column;
+}
+
+.container5 button{
+    background-color: #fff;
+    width: 100%;
+    padding: 1vw 0 1vw 0;
+    color: #CE8F5A;
+    margin-top: 2vw;
+}
+
+
+.c2block {
+    display: flex;
+    
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 45vw;
+    margin: 5vw;
+}
+
+.slider-container {
+    margin: 0 6.5vw;
+    overflow: hidden;
+    width: 32vw;
+}
+
+.slider-track {
+    display: flex;
+    transition: .2s;
+    width: 32vw; 
+}
+
+.slider-iteam{
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+.slider-iteam img {
+    height: 15vw;
+    width: 100%;
+    object-fit: contain;
+}
+
+.slider-iteam p{
+    text-align: center;
+    margin-top: 1.5vw;
+}
+
+
+
+
+.btn-prev {
+    background-color: transparent;
+    border: none;
+    height: 3.5vw;
+    width: 3.5vw;
+    padding-top: 0.3vw;
+    padding-right: 0.3vw;
+    position: absolute;
+    margin-top: -13vw;
+    
+    
+}
+
+.btn-next img {
+    height: 3.5vw;
+}
+
+.btn-next {
+    border: none;
+    height: 3.5vw;
+    width: 3.5vw;
+    padding-top: 0.3vw;
+    padding-right: 0.3vw;
+    position: absolute;
+    margin-top: -12vw;
+    margin-left: 41.5vw;
+    background-color: transparent;
+    transform: rotate(180deg);
+}
+
+.btn-prev img {
+    height: 3.5vw;
+}

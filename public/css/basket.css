@@ -1,0 +1,141 @@
+
+  
+  .container{
+    display: grid;
+    grid-template-columns: auto 15vw;
+    margin: 3vw 10vw;
+  }
+  
+  .container button{
+    width: 100%;
+    height: 3vw;
+  }
+ 
+  
+  .container h2 {
+    color: #000;
+    margin-top: 0.5vw;
+  }
+  
+
+  .container2 {
+    width: 80vw;
+    margin: 2vw 10vw 0 10vw;
+    display: flex;
+    margin-bottom: 3vw;
+  }
+
+  .content2{
+    background-color: #fff;
+    padding: 3vw;
+    width: 55vw;
+  }
+
+  .weight {
+    display: grid;
+grid-template-columns: 12vw 25vw auto;
+    align-items: center;
+    padding: 1.5vw 0;
+    
+}
+
+.weight img {
+    width: 12vw;
+}
+
+.w1{
+margin: 0 2vw;
+}
+
+.wbtn{
+border: 2px solid #616976;
+margin: 0.5vw 0;
+width: 18vw;
+}
+
+
+.minus, .plus {
+    width: 5vw;
+    height: 3vw;
+    color: #616976;
+    border: none;
+    text-align: center;
+    vertical-align: middle;
+    background-color: transparent;
+}
+
+.weight input{
+    height: 3vw;
+    font-weight: 500;
+    color: #869183;
+    border: none;
+    background-color: transparent;
+text-align: center;
+width: 7vw;
+
+}
+
+.w2{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+    .del{
+        border: none;
+        width: 2vw;
+        background-color: transparent;
+        float: right;
+        margin-top: 1vw;
+    }
+
+.del img{
+width: 2vw;
+}
+
+.warning{
+    color: red;
+    font-weight: 200;
+    font-size: 12px;
+    margin-top: 0.5vw;
+    width: 18vw;
+    line-height: 1.5;
+}
+
+.money{
+    font-size: 2vw;
+    float: right;
+}
+
+
+.total{
+width: 18vw;
+height: 20vw;
+margin-left: 3vw;
+background-color: #fff;
+    padding: 3vw;
+}
+
+h2{
+color: #000;
+margin-bottom: 2vw;
+}
+
+.cost h3{
+    margin-top: -2.5vw;
+}
+
+.total p{
+    color: #616976;
+    margin: 1vw 0;
+}
+
+.total input{
+    padding: 0.5vw;
+    margin: 3vw 0 1.5vw 0;
+}
+
+.total button{
+    width: 100%;
+    height: 3vw;
+}

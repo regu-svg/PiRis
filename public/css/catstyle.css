@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Days&family=Jost:wght@400;500;700&display=swap');
+
+@font-face {
+    font-family: 'Days';
+    src: url(../fonts/Days.otf);
+}
+
+.container {
+    margin: 5vw 10vw;
+    display: grid;
+    grid-template-columns: 20vw 55vw;
+    column-gap: 5vw;
+}
+
+.inputs h2 {
+    color: #616976;
+    height: 4vw;
+}
+
+.inputs h3 {
+    color: #616976;
+    margin-bottom: 1vw;
+}
+
+.inputs button {
+    width: 100%;
+    color: #fff;
+    padding: 0.8vw;
+margin-top: 2vw;
+}
+
+
+select {
+    width: 20vw;
+    padding: 0.5vw 2vw;
+    letter-spacing: 2.1px;
+    border: 2px solid #616976;
+    background: #ffffff;
+    height: 3.3vw;
+    margin-bottom: 1vw;
+
+}
+
+.cat {
+    margin: 1vw 0;
+}
+
+:optional {
+    font-weight: 700;
+}
+
+:optional,
+::selection,
+::-webkit-keygen-select,
+option {
+    color: #616976;
+}
+
+.content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 3vw;
+    row-gap: 4vw;
+    margin-top: 4vw;
+}
+
+.card {
+    border: 1px solid #CE8F5A;
+    background-color: #fff;
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: auto;
+}
+
+.card p {
+    font-size: 1vw;
+    font-weight: 600;
+}
+
+.card img {
+    width: 80%;
+    height: 8vw;
+    object-fit: contain;
+    margin-bottom: 1vw;
+}
+
+.card h1 {
+    margin: 1vw 0;
+    font-size: 1.4vw;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.btn {
+    margin-top: 1vw;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 40% auto;
+    gap: 1vw;
+}
+
+
+.card button {
+    width: 100%;
+    color: #fff;
+    padding: 0.8vw;
+}

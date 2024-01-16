@@ -1,0 +1,87 @@
+
+.container{
+  margin: 1vw 10vw;
+  display: flex;
+}
+
+
+.container h2 {
+  color: #000;
+  margin-top: 0.5vw;
+}
+
+
+.container2 {
+  width: 75%;
+  margin: 2vw 10vw 0 10vw;
+  margin-bottom: 3vw;
+}
+
+.order{
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto 35vw;
+  background-color: #fff;
+      padding: 3vw;
+      margin-bottom: 2vw;
+  }
+  
+  h2{
+  color: #000;
+  margin-bottom: 1vw;
+  }
+  
+  .date{
+    display: flex;
+  }
+
+  .cost {
+display: flex;
+  }
+
+  .cost h3{
+    margin: 1vw 0 0 3vw;
+  }
+  
+  .order p{
+      color: #616976;
+      margin: 1vw 0;
+  }
+
+  .customer{
+    display: flex;
+  }
+
+  .btns{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2vw;
+  }
+  
+  .order button{
+      width: 100%;
+      height: 3.5vw;
+      margin-top: 2vw;
+  }
+
+  .status{
+    display: grid;
+    grid-template-columns:auto 22vw ;
+  }
+
+  .status p{
+    color: #616976;
+    font-size: 0.9vw;
+  }
+  select {
+    width: 20vw;
+    padding: 0.5vw 2vw;
+    letter-spacing: 2.1px;
+    border: 2px solid #616976;
+    background: #ffffff;
+    height: 3.3vw;
+    margin-bottom: 1vw;
+    background-color: transparent;
+    margin-left: 8vw;
+
+}

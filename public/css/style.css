@@ -1,0 +1,171 @@
+* {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+	font-family: 'Aegean'; 
+	src: url(../fonts/Aegean-8jJ2.ttf); 
+}
+
+@font-face {
+	font-family: 'Hussar'; 
+	src: url(../fonts/HussarBold-7mRE.otf); 
+}
+
+
+textarea:focus,
+input:focus {
+    outline: 0;
+}
+
+html,
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+
+textarea,
+input,
+
+label,
+p,
+a,
+h4,
+h3,
+span,
+select,
+::placeholder,
+:optional,
+::selection,
+::-webkit-keygen-select,
+option  {
+    font-family: 'Hussar', sans-serif;
+    font-size: 16px;
+    letter-spacing: 2.4px;
+}
+
+h1 {
+    color: #000;
+    font-family: 'Hussar', sans-serif;
+    font-size: 4.3vw;
+    letter-spacing: 4px;
+}
+
+h2{
+    color: #fff;
+    font-family: 'Hussar', sans-serif;
+font-size: 1.9vw;
+font-weight: 600;
+line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    background-color: #CE8F5A;
+    width: 7vw;
+    border: none;
+    padding: 0.5vw 0;
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+    font-size: 1.1vw;
+    font-weight: 700;
+    font-family: 'Aegean', sans-serif;
+}
+
+button:active{
+    background-color: #616976;
+}
+
+nav{
+    padding: 2vw 10vw;
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+.logo{
+    width: 15vw;
+}
+
+header {
+   height: max-content;
+   width: 100%;
+}
+.container1{
+    background-image: url(../img/side-view-bored-woman-work\ 1.png);
+    background-size: 100vw auto;
+    height: 100vh;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+.midl{
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5vw;
+}
+
+.midl p{
+    margin: 1vw 0 1.5vw 0vw;
+}
+
+
+.nav2 {
+    justify-content: end;
+    list-style: none;
+    display: flex;
+    margin-top: 3vw;
+}
+
+.nav2 a{
+margin-left: 7vw;
+width: auto;
+color: #000;
+}
+
+.himg{
+    display: flex;
+}
+
+.nav2 a img{
+    margin-top: -0.5vh;
+    width: 3vw;
+    }
+
+    footer{
+        background-color: #616976;
+        padding: 5vw 10vw;
+        vertical-align:middle;
+        
+    }
+    
+    footer p{
+        
+        color: #F5F6F0;
+        font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    width: 80%;
+
+    
+    }
+
+    .arrow{
+        display: none;
+    }
+
+   
